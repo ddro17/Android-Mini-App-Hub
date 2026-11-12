@@ -1,0 +1,23 @@
+# Android Studio and local configuration
+.idea/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+
+# Generated output and caches
+.gradle/
+.kotlin/
+**/build/
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+
+# Signing material and private local configuration
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*

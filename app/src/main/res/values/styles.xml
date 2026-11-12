@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GameBoyButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">#7d59bf</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

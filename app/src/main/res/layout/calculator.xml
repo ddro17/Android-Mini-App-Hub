@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightpurple"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1.5"
+        android:drawableLeft="@drawable/kuromi"
+        android:background="@color/black"
+        android:gravity="end|center_vertical"
+        android:padding="16dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:typeface="monospace"/>
+
+    <RelativeLayout
+        android:background="@color/purp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="2dp"
+        android:layout_weight="1.5"
+        android:padding="1dp">
+
+        <!-- Addition Button  -->
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:text="+"
+            android:textSize="24sp" />
+
+        <!-- Subtraction Button  -->
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="-"
+            android:textSize="24sp" />
+
+        <!-- Multiplication Button  -->
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="×"
+            android:textSize="24sp" />
+
+        <!-- Division Button  -->
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="÷"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <GridLayout
+        android:background="@color/purp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="3"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/GameBoyButton"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/GameBoyButton"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/GameBoyButton"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/GameBoyButton"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/GameBoyButton"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/GameBoyButton"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/GameBoyButton"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/GameBoyButton"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/GameBoyButton"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/GameBoyButton"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/GameBoyButton"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btnEquals"
+            style="@style/GameBoyButton"
+            android:text="=" />
+    </GridLayout>
+</LinearLayout>
